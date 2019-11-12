@@ -1,0 +1,91 @@
+body {
+    margin:  0px;
+    padding:  0px;
+}
+.container {
+    max-width: 100% !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important; 
+}
+.privacyTitle{
+    text-align: center;
+    font-family: "Montserrat-Medium", sans-serif;
+    color : white;
+    font-weight: bold;
+    margin: auto;
+}
+.privateTitleContainer{
+    padding: 10% 15% 15% 15%;
+  
+ 
+}
+
+.privacyTitleDescription {
+    text-align: center;
+    margin-top: 5%;
+    font-family: "Montserrat-Light", sans-serif;
+    font-size:  20px;
+    color: white;
+}
+.header-shadow{
+    background: linear-gradient(rgba(17, 17, 17, 0.5), rgba(17, 17, 17, 0.5)) ,url("privacy.jpg");
+    background-position: 70% 30%;
+    background-attachment: fixed !important;
+    background-size: cover;
+    min-height: 630px;
+}
+
+
+
+.privacySubTitle{
+    text-align: left;
+    font-family: "Montserrat-Medium", sans-serif;
+    color: #425974;
+    font-weight: 500;
+}
+
+.privacySubTitleContainer{
+    margin-bottom: 5%;
+}
+
+.privacyDescription {
+    text-align: justify;
+    margin-top: 2%;
+    font-size: 18px;
+    /* padding-left: 3%; */
+    font-family: "Montserrat-Light", sans-serif;
+    font-weight: normal;
+}
+.bottomContainer {
+    margin-top:  12%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+@media all and (max-width: 500px) { /* screen size until 500px */
+    .font-size-title {
+        font-size: 1.5em;
+        margin-top: 50px;
+    }
+    .font-size {
+        font-size: 0.8em; /* 0.8x default size */
+        }
+    .font-size-description {
+         font-size: 0.5em
+    }
+    .imagePosition {
+         background-position: 50%  ;
+    }
+    .header-shadow{
+        min-height: 350px;
+    }  
+    .bottomContainer{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .privateTitleContainer{
+        padding: 5% 10% 10% 10%;
+    }
+}
+
+
